@@ -1,0 +1,18 @@
+.App{
+  text-align: center;
+  margin:30px auto;
+}
+.button{
+  border:2px solid maroon;
+  padding:5px 10px;
+  font-size:15px;
+  font-weight: 600;
+  background: none;
+  cursor: pointer;
+}
+.button:hover{
+  border:2px solid red;
+  transform: scale(1.1,1.1);
+  color:white;
+  background:lightsalmon;
+}
