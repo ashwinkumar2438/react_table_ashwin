@@ -18,7 +18,7 @@ class App extends Component {
     filterparams:["",""]
   }
   componentDidMount(){
-    axios.get("/data.json").then((res)=>{
+    axios.get("/react_table_ashwin/data.json").then((res)=>{
       console.log(res);
       var data=res.data;
       data=data.map(a=>({...a,...a.nutritions}))
