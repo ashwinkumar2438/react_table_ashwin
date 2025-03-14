@@ -269,6 +269,8 @@ You would need to have the latest version of [VS Code](https://code.visualstudio
 
 Then add the block below to your `launch.json` file and put it inside the `.vscode` folder in your app’s root directory.
 
+# Testing this too how this works
+
 ```json
 {
   "version": "0.2.0",
